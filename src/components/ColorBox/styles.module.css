@@ -1,0 +1,18 @@
+.container {
+  height: 50%;
+  width: 50%;
+}
+
+.colorBox {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.componentName {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+}
