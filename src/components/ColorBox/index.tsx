@@ -33,6 +33,7 @@ export const ColorBox = ({ id, shortcutData, bgColor }: ColorBoxProps) => {
   return (
     <div
       id={id}
+      data-testid='color-box'
       className={styles.container}
       style={{ backgroundColor: bgColor }}
     >

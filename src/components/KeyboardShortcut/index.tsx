@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { keypressListener } from '../../keypress/listeners';
 import { useShortcutContext } from '../../store/shortcut';
 
-interface KeyboardShortcutProps {
+export interface KeyboardShortcutProps {
   combo: string;
   onKeyPress: () => void;
   description: string;
