@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/%7BCommandk-Assignment%7D/static/css/main.dd31865e.css",
-    "main.js": "/%7BCommandk-Assignment%7D/static/js/main.82c66f42.js",
-    "index.html": "/%7BCommandk-Assignment%7D/index.html",
-    "main.dd31865e.css.map": "/%7BCommandk-Assignment%7D/static/css/main.dd31865e.css.map",
-    "main.82c66f42.js.map": "/%7BCommandk-Assignment%7D/static/js/main.82c66f42.js.map"
+    "main.css": "/Commandk-Assignment/static/css/main.dd31865e.css",
+    "main.js": "/Commandk-Assignment/static/js/main.82c66f42.js",
+    "index.html": "/Commandk-Assignment/index.html",
+    "main.dd31865e.css.map": "/Commandk-Assignment/static/css/main.dd31865e.css.map",
+    "main.82c66f42.js.map": "/Commandk-Assignment/static/js/main.82c66f42.js.map"
   },
   "entrypoints": [
     "static/css/main.dd31865e.css",
