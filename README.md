@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# CommandK Assignment Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This amazing and user-friendly application provides a comprehensive keyboard shortcut library with a plethora of features that enable users to easily and efficiently navigate through different sections and perform various actions with just a few keystrokes.
 
-## Available Scripts
+With this application, any component can effortlessly bind and unbind shortcuts as per its requirements. Furthermore, it provides the flexibility for any component to specify a key combination and a callback function that is triggered when the specified key is pressed.
 
-In the project directory, you can run:
+One of the most advantageous features of this application is its ability to store all the active shortcuts. This allows users to easily view and navigate through the various keyboard shortcuts available for each component. This invaluable feature can be accessed through the application's help section, which provides users with a comprehensive guide to all the available keyboard shortcuts, thereby increasing their productivity and enhancing their overall user experience.
 
-### `npm start`
+You can access the application [here](https://firehudson.github.io/Commandk-Assignment/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Requirements for Running the Application
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You must have installed Node Package Manager (npm) to manage your Node.js packages and dependencies
 
-### `npm test`
+## Running the Application: A Step-by-Step Guide
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the root directory of the project, you can get started by executing the following steps:
 
-### `npm run build`
+Firstly, run the command `npm install` to install all the necessary packages required for the project.
+Once the installation is complete, run the command `npm start` to launch the application in the development mode. This command will start a development server and your application will be available at [http://localhost:3000](http://localhost:3000) on your web browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Beyond the Basics: Discovering Valuable Insights with Additional Information
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. To efficiently store and manage the keyboard shortcut combinations during the mounting of the component, we save the value of `combo` as an object. This approach allows us to carry additional information, such as a description and component name, which can be used solely for presentation purposes. By doing so, we are able to ensure that the keyboard shortcuts are easily accessible and clearly visible to the user.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. If we need to unregister a keyboard shortcut combination, we can easily access the `combo-keys` from the store by using the `Object.keys(shortcuts)` method. This allows us to quickly and efficiently retrieve the necessary information and remove the shortcut combo as needed.
 
-### `npm run eject`
+## Unlocking the Potential: Overcoming the Limitations Holding You Back
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+We attempted to install the `keypress.js` module using both the file and GitHub methods. While it did install successfully, we encountered an error when attempting to access it within our code. Specifically, we received the following error message:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+Uncaught TypeError: Cannot read properties of undefined (reading 'Listener')
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+While we could have resolved this error with additional troubleshooting, we were pressed for time. As a result, we opted to import keypress.js using a script tag within our index.html file. This allowed us to continue working on our project without further delay.
